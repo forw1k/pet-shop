@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     id: '1',
     subtitle: 'Сказочное заморское яство',
@@ -9,8 +9,9 @@ const data = [
     slogan: '',
     quantity: '0,5',
     unit: 'кг',
-    inStock: true,
-    selected: false
+    image: 'cat.png',
+    isInStock: true,
+    isSelected: false
   },
   {
     id: '2',
@@ -22,8 +23,9 @@ const data = [
     slogan: '',
     quantity: '2',
     unit: 'кг',
-    inStock: true,
-    selected: false
+    image: 'cat.png',
+    isInStock: true,
+    isSelected: false
   },
   {
     id: '3',
@@ -35,7 +37,10 @@ const data = [
     slogan: 'заказчик доволен',
     quantity: '5',
     unit: 'кг',
-    inStock: false,
-    selected: false
+    image: 'cat.png',
+    isInStock: false,
+    isSelected: false
   }
 ]
+
+export default data;

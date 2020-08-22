@@ -1,0 +1,27 @@
+.wrapper {
+  background: url('/background.png');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.container {
+  width: 1280px;
+  height: 680px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+.banner__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.common-text {
+  color: #666666;
+}
