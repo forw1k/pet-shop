@@ -1,8 +1,26 @@
+@font-face {
+  font-family: 'Trebuchet-MS';
+  src: url('./components/fonts/Trebuchet-ms.woff2') format('woff2');
+  src: url('./components/fonts/Trebuchet-ms.woff') format('woff');
+  src: url('./components/fonts/Trebuchet-ms.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Trebuchet-Bold';
+  src: url('./components/fonts/Trebuchet-Bold.woff2') format('woff2');
+  src: url('./components/fonts/Trebuchet-Bolt.woff') format('woff');
+  src: url('./components/fonts/Trebuchet-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Exo2-Thin';
+  src: url('./components/fonts/Exo2-Thin.woff2') format('woff2');
+  src: url('./components/fonts/Exo2-Thin.woff') format('woff');
+  src: url('./components/fonts/Exo2-Thin.ttf') format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet-MS', sans-serif;
 }

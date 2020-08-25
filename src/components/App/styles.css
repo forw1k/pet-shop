@@ -5,23 +5,35 @@
   align-items: center;
 }
 .section-title {
+  font-family: 'Exo2-Thin', sans-serif;
+  font-weight: 100;
   font-size: 36px;
-  font-weight: 400;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 20px;
 }
 .container {
   width: 1280px;
   height: 680px;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 45px 80px 0;
 }
 .banner__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .common-text {
   color: #666666;
+  font-weight: bold;
+}
+.common-text--fat {
+  font-family: 'Trebuchet-Bold';
+  font-weight: bold;
+}
+.common-text--amount {
+  margin-right: 3px;
+}
+.description {
+  font-size: 14px;
 }
