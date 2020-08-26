@@ -34,7 +34,7 @@ export const data = [
     unit: 'кг',
     image: 'cat.png',
     isInStock: true,
-    isSelected: false,
+    isSelected: true,
     bannerText: {
       notSelected: 'Чего сидишь? Порадуй котэ, ',
       selected: 'Головы щучьи с чесноком да свежайшая семгушка',

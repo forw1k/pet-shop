@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './styles.css';
+import './styles.scss';
 
 const Banner = (props) => {
   const { item } = props;
   const { bannerText } = item;
   const isSelectedBanner = !item.isSelected && item.isInStock;
   const isNotSelectedBanner = item.isSelected && item.isInStock;
-
+  const stocked = item.isInStock ? '' : 'unavailable';
+  const chosen = item.isSelected ? 'selected' : '';
+  const [selected, setSelected] = useState(item.isSelected);
+  console.log(selected);
   return (
-    <li className="banner__item">
+    <li
+      className={`banner__item ${stocked} ${chosen}`}
+      onClick={() => setSelected(!selected)}
+    >
       <div className="card">
         <div className="content">
           <div className="information">
