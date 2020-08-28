@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/forw1k.github.io/pet-shop/static/css/main.318c591d.chunk.css",
+    "main.js": "/forw1k.github.io/pet-shop/static/js/main.fc5add90.chunk.js",
+    "main.js.map": "/forw1k.github.io/pet-shop/static/js/main.fc5add90.chunk.js.map",
+    "runtime-main.js": "/forw1k.github.io/pet-shop/static/js/runtime-main.b3587aa2.js",
+    "runtime-main.js.map": "/forw1k.github.io/pet-shop/static/js/runtime-main.b3587aa2.js.map",
+    "static/js/2.28d170ac.chunk.js": "/forw1k.github.io/pet-shop/static/js/2.28d170ac.chunk.js",
+    "static/js/2.28d170ac.chunk.js.map": "/forw1k.github.io/pet-shop/static/js/2.28d170ac.chunk.js.map",
+    "index.html": "/forw1k.github.io/pet-shop/index.html",
+    "precache-manifest.9b091202a242ca6c6ab59e7e524b5a55.js": "/forw1k.github.io/pet-shop/precache-manifest.9b091202a242ca6c6ab59e7e524b5a55.js",
+    "service-worker.js": "/forw1k.github.io/pet-shop/service-worker.js",
+    "static/css/main.318c591d.chunk.css.map": "/forw1k.github.io/pet-shop/static/css/main.318c591d.chunk.css.map",
+    "static/js/2.28d170ac.chunk.js.LICENSE.txt": "/forw1k.github.io/pet-shop/static/js/2.28d170ac.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/forw1k.github.io/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3587aa2.js",
+    "static/js/2.28d170ac.chunk.js",
+    "static/css/main.318c591d.chunk.css",
+    "static/js/main.fc5add90.chunk.js"
+  ]
+}
