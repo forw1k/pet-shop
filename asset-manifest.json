@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/forw1k/pet-shop/static/css/main.f5f05640.chunk.css",
-    "main.js": "/forw1k/pet-shop/static/js/main.fc5add90.chunk.js",
-    "main.js.map": "/forw1k/pet-shop/static/js/main.fc5add90.chunk.js.map",
-    "runtime-main.js": "/forw1k/pet-shop/static/js/runtime-main.7c404d77.js",
-    "runtime-main.js.map": "/forw1k/pet-shop/static/js/runtime-main.7c404d77.js.map",
-    "static/js/2.28d170ac.chunk.js": "/forw1k/pet-shop/static/js/2.28d170ac.chunk.js",
-    "static/js/2.28d170ac.chunk.js.map": "/forw1k/pet-shop/static/js/2.28d170ac.chunk.js.map",
-    "index.html": "/forw1k/pet-shop/index.html",
-    "precache-manifest.8e72e9e99f5903d2ca2c97ab4f948d21.js": "/forw1k/pet-shop/precache-manifest.8e72e9e99f5903d2ca2c97ab4f948d21.js",
-    "service-worker.js": "/forw1k/pet-shop/service-worker.js",
-    "static/css/main.f5f05640.chunk.css.map": "/forw1k/pet-shop/static/css/main.f5f05640.chunk.css.map",
-    "static/js/2.28d170ac.chunk.js.LICENSE.txt": "/forw1k/pet-shop/static/js/2.28d170ac.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/forw1k/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2"
+    "main.css": "/pet-shop/static/css/main.bc8e0d7d.chunk.css",
+    "main.js": "/pet-shop/static/js/main.fc5add90.chunk.js",
+    "main.js.map": "/pet-shop/static/js/main.fc5add90.chunk.js.map",
+    "runtime-main.js": "/pet-shop/static/js/runtime-main.b76646ed.js",
+    "runtime-main.js.map": "/pet-shop/static/js/runtime-main.b76646ed.js.map",
+    "static/js/2.28d170ac.chunk.js": "/pet-shop/static/js/2.28d170ac.chunk.js",
+    "static/js/2.28d170ac.chunk.js.map": "/pet-shop/static/js/2.28d170ac.chunk.js.map",
+    "index.html": "/pet-shop/index.html",
+    "precache-manifest.4e882ea8fc04f5fe00e3bd1d116ec3bd.js": "/pet-shop/precache-manifest.4e882ea8fc04f5fe00e3bd1d116ec3bd.js",
+    "service-worker.js": "/pet-shop/service-worker.js",
+    "static/css/main.bc8e0d7d.chunk.css.map": "/pet-shop/static/css/main.bc8e0d7d.chunk.css.map",
+    "static/js/2.28d170ac.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.28d170ac.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c404d77.js",
+    "static/js/runtime-main.b76646ed.js",
     "static/js/2.28d170ac.chunk.js",
-    "static/css/main.f5f05640.chunk.css",
+    "static/css/main.bc8e0d7d.chunk.css",
     "static/js/main.fc5add90.chunk.js"
   ]
 }
