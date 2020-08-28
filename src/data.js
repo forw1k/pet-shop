@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: '1',
     subtitle: 'Сказочное заморское яство',
@@ -34,7 +34,7 @@ export const data = [
     unit: 'кг',
     image: 'cat.png',
     isInStock: true,
-    isSelected: true,
+    isSelected: false,
     bannerText: {
       notSelected: 'Чего сидишь? Порадуй котэ, ',
       selected: 'Головы щучьи с чесноком да свежайшая семгушка',

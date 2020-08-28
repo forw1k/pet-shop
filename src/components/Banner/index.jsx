@@ -4,19 +4,15 @@ import './styles.scss';
 
 const Banner = (props) => {
   const { item } = props;
-  const { bannerText } = item;
-  const isSelectedBanner = !item.isSelected && item.isInStock;
-  const isNotSelectedBanner = item.isSelected && item.isInStock;
-  const stocked = item.isInStock ? '' : 'unavailable';
-  const chosen = item.isSelected ? 'selected' : '';
   const [selected, setSelected] = useState(item.isSelected);
-  console.log(selected);
+  const stocked = item.isInStock ? '' : 'unavailable';
+  const chosen = selected ? 'selected' : '';
+  const isSelectedBanner = !selected && item.isInStock;
+  const isNotSelectedBanner = selected && item.isInStock;
+
   return (
-    <li
-      className={`banner__item ${stocked} ${chosen}`}
-      onClick={() => setSelected(!selected)}
-    >
-      <div className="card">
+    <li className={`banner__item ${stocked || chosen}`}>
+      <div className="card" onClick={() => setSelected(!selected)}>
         <div className="content">
           <div className="information">
             <span className="common-text subtitle">{item.subtitle}</span>
@@ -47,9 +43,14 @@ const Banner = (props) => {
       </div>
       <div className="action">
         <span className="action-text">
-          {isSelectedBanner && bannerText.notSelected}
-          {isNotSelectedBanner && bannerText.selected}
-          {!item.isInStock && bannerText.notInStock}
+          {isSelectedBanner && item.bannerText.notSelected}
+          {isSelectedBanner && (
+            <span className="link" onClick={() => setSelected(!selected)}>
+              купи.
+            </span>
+          )}
+          {isNotSelectedBanner && item.bannerText.selected}
+          {!item.isInStock && item.bannerText.notInStock}
         </span>
       </div>
     </li>
@@ -72,6 +73,11 @@ Banner.propTypes = {
     image: PropTypes.string.isRequired,
     isInStock: PropTypes.bool.isRequired,
     isSelected: PropTypes.bool.isRequired,
+    bannerText: PropTypes.shape({
+      notSelected: PropTypes.string.isRequired,
+      selected: PropTypes.string.isRequired,
+      notInStock: PropTypes.string.isRequired,
+    }).isRequired,
   }).isRequired,
 };
 
