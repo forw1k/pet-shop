@@ -13,31 +13,29 @@ const Banner = (props) => {
   return (
     <li className={`banner__item ${stocked || chosen}`}>
       <div className="card" onClick={() => setSelected(!selected)}>
-        <div className="content">
-          <div className="information">
-            <span className="common-text subtitle">{item.subtitle}</span>
-            <h1 className="headline common-text--fat">{item.title}</h1>
-            <h2 className="taste common-text--fat">{item.ingredients}</h2>
-            <div className="description">
-              <span className="common-text common-text--fat common-text--amount">
-                {item.portionAmount}
-              </span>
-              <span className="common-text">{item.portionText}</span>
-            </div>
-            <div className="description">
-              <span className="common-text common-text--fat common-text--amount">
-                {item.giftAmount}
-              </span>
-              <span className="common-text">{item.giftText}</span>
-            </div>
-            <span className="common-text description">{item.slogan}</span>
+        <div className="information">
+          <span className="common-text subtitle">{item.subtitle}</span>
+          <h1 className="headline common-text--fat">{item.title}</h1>
+          <h2 className="taste common-text--fat">{item.ingredients}</h2>
+          <div className="description">
+            <span className="common-text common-text--fat common-text--amount">
+              {item.portionAmount}
+            </span>
+            <span className="common-text">{item.portionText}</span>
           </div>
-          <div className="pictures">
-            <img src={item.image} alt="" className="pictures__img" />
-            <div className="mass">
-              <span className="weight">{item.quantity}</span>
-              <span className="weight weight-unit">{item.unit}</span>
-            </div>
+          <div className="description">
+            <span className="common-text common-text--fat common-text--amount">
+              {item.giftAmount}
+            </span>
+            <span className="common-text">{item.giftText}</span>
+          </div>
+          <span className="common-text description">{item.slogan}</span>
+        </div>
+        <div className="pictures">
+          <img src={item.image} alt="" className="pictures__img" />
+          <div className="mass">
+            <span className="weight">{item.quantity}</span>
+            <span className="weight weight-unit">{item.unit}</span>
           </div>
         </div>
       </div>

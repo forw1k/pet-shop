@@ -9,9 +9,7 @@ const App = () => {
     <div className="wrapper">
       <div className="container">
         <h2 className="section-title">Ты сегодня покормил кота?</h2>
-        <div className="main">
-          <ul className="banner-list">{banners}</ul>
-        </div>
+        <ul className="banner-list">{banners}</ul>
       </div>
     </div>
   );
