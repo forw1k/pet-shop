@@ -20,7 +20,7 @@
   &.selected {
     .card{
       &:before{
-        background-image: url('./border-select.svg');
+        background-image: url('../img/border-select.svg');
       }}
     .mass {
       background-color: #D91667;
@@ -30,7 +30,7 @@
     .card{
       color: #b3b3b3;
       &:before{
-      background-image: url('./border-unav.svg');
+      background-image: url('../img/border-unav.svg');
     }
       &:after{
       width: 100%;
@@ -68,7 +68,7 @@
   &:before{
     position: absolute;
     content: "";
-    background-image: url('./border.svg');
+    background-image: url('../img/border.svg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
