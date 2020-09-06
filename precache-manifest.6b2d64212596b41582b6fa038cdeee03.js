@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e5f49de7253f9e682bb0a873c79f2ce",
+    "revision": "99e6a41ccdd2ba2d834b964290eea421",
     "url": "/pet-shop/index.html"
   },
   {
-    "revision": "8a5751ef1d4ae90a8e05",
-    "url": "/pet-shop/static/css/main.93ca6290.chunk.css"
+    "revision": "4d7f3d63229f24b1a689",
+    "url": "/pet-shop/static/css/main.1d58c4fa.chunk.css"
   },
   {
     "revision": "8c5b11b5a5165386f185",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pet-shop/static/js/2.6f77b880.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a5751ef1d4ae90a8e05",
+    "revision": "4d7f3d63229f24b1a689",
     "url": "/pet-shop/static/js/main.47f6c65c.chunk.js"
   },
   {
@@ -58,21 +58,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd5befdcf1a1a7a53b5959544c00fee5",
     "url": "/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2"
-  },
-  {
-    "revision": "7b95a4ace0a3ae5f6cb8cdb329f4a48d",
-    "url": "/pet-shop/static/media/background.7b95a4ac.png"
-  },
-  {
-    "revision": "74fc8a1c6c20ab1ea2e70e533af1140b",
-    "url": "/pet-shop/static/media/border-select.74fc8a1c.svg"
-  },
-  {
-    "revision": "9b9135e22343a5a685d989aa1e887f4f",
-    "url": "/pet-shop/static/media/border-unav.9b9135e2.svg"
-  },
-  {
-    "revision": "d361e648a13658ac3a51b53349ed4f1b",
-    "url": "/pet-shop/static/media/border.d361e648.svg"
   }
 ]);
