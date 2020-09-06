@@ -2,6 +2,7 @@ const data = [
   {
     id: '1',
     subtitle: 'Сказочное заморское яство',
+    subtitleAlt: 'Котэ не одобряет?',
     title: 'Нямушка',
     ingredients: 'с фуа-гра',
     portionAmount: '10',
@@ -23,6 +24,7 @@ const data = [
   {
     id: '2',
     subtitle: 'Сказочное заморское яство',
+    subtitleAlt: 'Котэ не одобряет?',
     title: 'Нямушка',
     ingredients: 'с рыбой',
     portionAmount: '40',
@@ -44,6 +46,7 @@ const data = [
   {
     id: '3',
     subtitle: 'Сказочное заморское яство',
+    subtitleAlt: 'Котэ не одобряет?',
     title: 'Нямушка',
     ingredients: 'с курой',
     portionAmount: '100',

@@ -20,17 +20,23 @@
   &.selected {
     .card{
       &:before{
-        background-image: url('../img/border-select.svg');
+        background-image: url('/border-select.svg');
       }}
     .mass {
       background-color: #D91667;
+    }
+    &:hover .subtitle{
+      display: none;
+    }
+    &:hover .subtitle-alt{
+      display: block;
     }
   }
   &.unavailable {
     .card{
       color: #b3b3b3;
       &:before{
-      background-image: url('../img/border-unav.svg');
+      background-image: url('/border-unav.svg');
     }
       &:after{
       width: 100%;
@@ -68,7 +74,7 @@
   &:before{
     position: absolute;
     content: "";
-    background-image: url('../img/border.svg');
+    background-image: url('/border.svg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -142,4 +148,7 @@
   text-decoration-color: #2EA8E6;
   cursor: pointer;
   font-family: 'Trebuchet-Bold',sans-serif;
+}
+.subtitle-alt {
+  display: none;
 }
