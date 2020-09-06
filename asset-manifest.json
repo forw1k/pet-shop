@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/pet-shop/static/css/main.82a91817.chunk.css",
-    "main.js": "/pet-shop/static/js/main.da339f8d.chunk.js",
-    "main.js.map": "/pet-shop/static/js/main.da339f8d.chunk.js.map",
-    "runtime-main.js": "/pet-shop/static/js/runtime-main.b76646ed.js",
-    "runtime-main.js.map": "/pet-shop/static/js/runtime-main.b76646ed.js.map",
-    "static/js/2.28d170ac.chunk.js": "/pet-shop/static/js/2.28d170ac.chunk.js",
-    "static/js/2.28d170ac.chunk.js.map": "/pet-shop/static/js/2.28d170ac.chunk.js.map",
+    "main.css": "/pet-shop/static/css/main.93ca6290.chunk.css",
+    "main.js": "/pet-shop/static/js/main.47f6c65c.chunk.js",
+    "main.js.map": "/pet-shop/static/js/main.47f6c65c.chunk.js.map",
+    "runtime-main.js": "/pet-shop/static/js/runtime-main.1730e4fa.js",
+    "runtime-main.js.map": "/pet-shop/static/js/runtime-main.1730e4fa.js.map",
+    "static/js/2.6f77b880.chunk.js": "/pet-shop/static/js/2.6f77b880.chunk.js",
+    "static/js/2.6f77b880.chunk.js.map": "/pet-shop/static/js/2.6f77b880.chunk.js.map",
     "index.html": "/pet-shop/index.html",
-    "precache-manifest.a2333411293082ffe6dd6bedd04b25be.js": "/pet-shop/precache-manifest.a2333411293082ffe6dd6bedd04b25be.js",
+    "precache-manifest.48e192c311443f7e997e78650ce0d8a7.js": "/pet-shop/precache-manifest.48e192c311443f7e997e78650ce0d8a7.js",
     "service-worker.js": "/pet-shop/service-worker.js",
-    "static/css/main.82a91817.chunk.css.map": "/pet-shop/static/css/main.82a91817.chunk.css.map",
-    "static/js/2.28d170ac.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.28d170ac.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2"
+    "static/css/main.93ca6290.chunk.css.map": "/pet-shop/static/css/main.93ca6290.chunk.css.map",
+    "static/js/2.6f77b880.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.6f77b880.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2",
+    "static/media/styles.scss": "/pet-shop/static/media/border.d361e648.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b76646ed.js",
-    "static/js/2.28d170ac.chunk.js",
-    "static/css/main.82a91817.chunk.css",
-    "static/js/main.da339f8d.chunk.js"
+    "static/js/runtime-main.1730e4fa.js",
+    "static/js/2.6f77b880.chunk.js",
+    "static/css/main.93ca6290.chunk.css",
+    "static/js/main.47f6c65c.chunk.js"
   ]
 }
