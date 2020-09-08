@@ -5,7 +5,8 @@ import './styles.scss';
 const Banner = (props) => {
   const { item } = props;
   const [selected, setSelected] = useState(item.isSelected);
-  const [hover, setHover] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isHoveredSelected, setIsHoveredSelected] = useState(false);
   const stocked = item.isInStock ? '' : 'unavailable';
   const chosen = selected ? 'selected' : '';
   const isSelectedBanner = !selected && item.isInStock;
@@ -14,13 +15,16 @@ const Banner = (props) => {
     <li className={`banner__item ${stocked || chosen}`}>
       <div
         className="card"
-        onMouseLeave={() => console.log('mouseleave')}
-        onMouseOver={() => console.log('mouseover')}
+        onMouseLeave={() => {
+          selected ? setIsHovered(true) : setIsHovered(false);
+          setIsHoveredSelected(false);
+        }}
         onClick={() => setSelected(!selected)}
+        onMouseOver={() => isHovered && setIsHoveredSelected(true)}
       >
         <div className="information">
           <span className="common-text subtitle">
-            {hover ? item.subtitle : item.subtitleAlt}
+            {isHoveredSelected ? item.subtitleAlt : item.subtitle}
           </span>
           <h1 className="headline common-text--fat">{item.title}</h1>
           <h2 className="taste common-text--fat">{item.ingredients}</h2>
@@ -45,6 +49,19 @@ const Banner = (props) => {
             <span className="weight weight-unit">{item.unit}</span>
           </div>
         </div>
+        <svg
+          className="border"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 324 484"
+          preserveAspectRatio="none"
+        >
+          <path
+            fillRule="evenodd"
+            strokeWidth="4"
+            d="M310 482H14c-6.63 0-12-5.37-12-12V45L45 2h265c6.63 0 12 5.37 12 12v456c0 6.63-5.37 12-12 12z"
+          />
+        </svg>
       </div>
       <div className="action">
         <span className="action-text">

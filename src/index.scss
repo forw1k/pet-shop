@@ -16,6 +16,7 @@
   src: url('./fonts/Exo2-Thin.woff') format('woff');
   src: url('./fonts/Exo2-Thin.ttf') format('truetype');
 }
+@import './variables/css-variables.scss';
 * {
   margin: 0;
   padding: 0;
