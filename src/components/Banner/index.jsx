@@ -10,6 +10,7 @@ const Banner = (props) => {
   const stocked = item.isInStock ? '' : 'unavailable';
   const chosen = selected ? 'selected' : '';
   const isSelectedBanner = !selected && item.isInStock;
+  const isNotSelectedBanner = selected && item.isInStock;
 
   return (
     <li className={`banner__item ${stocked || chosen}`}>
@@ -71,7 +72,7 @@ const Banner = (props) => {
               купи.
             </span>
           )}
-          {!isSelectedBanner && item.bannerText.selected}
+          {isNotSelectedBanner && item.bannerText.selected}
           {!item.isInStock && item.bannerText.notInStock}
         </span>
       </div>
