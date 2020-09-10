@@ -16,8 +16,8 @@ const data = [
     isInStock: true,
     isSelected: false,
     bannerText: {
-      notSelected: 'Чего сидишь? Порадуй котэ, ',
-      selected: 'Печень утки разварная с артишоками',
+      isNotSelected: 'Чего сидишь? Порадуй котэ, ',
+      isSelected: 'Печень утки разварная с артишоками',
       notInStock: 'Печалька, с фуа-гра закончился',
     },
   },
@@ -38,8 +38,8 @@ const data = [
     isInStock: true,
     isSelected: false,
     bannerText: {
-      notSelected: 'Чего сидишь? Порадуй котэ, ',
-      selected: 'Головы щучьи с чесноком да свежайшая семгушка',
+      isNotSelected: 'Чего сидишь? Порадуй котэ, ',
+      isSelected: 'Головы щучьи с чесноком да свежайшая семгушка',
       notInStock: 'Печалька, с рыбой закончился',
     },
   },
@@ -60,8 +60,8 @@ const data = [
     isInStock: false,
     isSelected: false,
     bannerText: {
-      notSelected: 'Чего сидишь? Порадуй котэ, ',
-      selected: 'Филе из цыплят с трюфелями в бульоне',
+      isNotSelected: 'Чего сидишь? Порадуй котэ, ',
+      isSelected: 'Филе из цыплят с трюфелями в бульоне',
       notInStock: 'Печалька, с курой закончился',
     },
   },

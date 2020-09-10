@@ -1,5 +1,4 @@
 .banner__item {
-  max-width: 320px;
   margin-right: 80px;
   &:last-child {
     margin-right: 0;
@@ -18,15 +17,15 @@
       width: 100%;
     }
   }
-  &:hover{
-    .border{
+  &:hover {
+    .border {
       stroke: var(--color-blue--hover);
     }
-    .mass{
+    .mass {
       background-color: var(--color-blue--hover);
     }
   }
-  .border{
+  .border {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -34,27 +33,24 @@
     stroke: var(--color-blue);
   }
   &.selected {
-    .border{
+    .border {
       stroke: var(--color-pink);
     }
     .mass {
       background-color: var(--color-pink);
     }
-    &:hover{
-      .mass{
+    &:hover {
+      .mass {
         background-color: var(--color-pink--hover);
       }
-      .border{
+      .border {
         stroke: var(--color-pink--hover);
-      }
-      .subtitle{
-        color: var(--color-pink--hover);
       }
     }
   }
   &.unavailable {
-    .border{
-      stroke: var(--color-grey)
+    .border {
+      stroke: var(--color-grey);
     }
     .card {
       color: var(--color-grey);
@@ -91,15 +87,19 @@
   overflow: hidden;
   border-radius: 15px;
   margin-bottom: 15px;
+  word-wrap: break-word;
   @media (max-width: 1024px) {
     margin: 0 auto;
+  }
+  @media (max-width: 360px) {
+    width: 300px;
+    background: linear-gradient(135deg, transparent 32px, #ffffff 0);
   }
 }
 .information {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-top: 15px;
+  padding: 15px 50px 0 50px;
 }
 .headline {
   font-size: 48px;
@@ -159,4 +159,7 @@
   text-decoration-color: var(--color-blue);
   cursor: pointer;
   font-family: 'Trebuchet-Bold', sans-serif;
+}
+.subtitle-alt {
+  color: var(--color-pink--hover);
 }

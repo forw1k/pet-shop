@@ -4,28 +4,32 @@ import './styles.scss';
 
 const Banner = (props) => {
   const { item } = props;
-  const [selected, setSelected] = useState(item.isSelected);
+  const [isSelected, setSelected] = useState(item.isSelected);
   const [isHovered, setIsHovered] = useState(false);
   const [isHoveredSelected, setIsHoveredSelected] = useState(false);
   const stocked = item.isInStock ? '' : 'unavailable';
-  const chosen = selected ? 'selected' : '';
-  const isSelectedBanner = !selected && item.isInStock;
-  const isNotSelectedBanner = selected && item.isInStock;
+  const chosen = isSelected ? 'selected' : '';
+  const isSelectedBanner = !isSelected && item.isInStock;
+  const isNotSelectedBanner = isSelected && item.isInStock;
 
   return (
     <li className={`banner__item ${stocked || chosen}`}>
       <div
         className="card"
         onMouseLeave={() => {
-          selected ? setIsHovered(true) : setIsHovered(false);
+          isSelected ? setIsHovered(true) : setIsHovered(false);
           setIsHoveredSelected(false);
         }}
-        onClick={() => setSelected(!selected)}
+        onClick={() => setSelected(!isSelected)}
         onMouseOver={() => isHovered && setIsHoveredSelected(true)}
       >
         <div className="information">
-          <span className="common-text subtitle">
-            {isHoveredSelected ? item.subtitleAlt : item.subtitle}
+          <span
+            className={`common-text ${
+              isHoveredSelected && isSelected ? 'subtitle-alt' : 'subtitle'
+            }`}
+          >
+            {isHoveredSelected && isSelected ? item.subtitleAlt : item.subtitle}
           </span>
           <h1 className="headline common-text--fat">{item.title}</h1>
           <h2 className="taste common-text--fat">{item.ingredients}</h2>
@@ -66,13 +70,13 @@ const Banner = (props) => {
       </div>
       <div className="action">
         <span className="action-text">
-          {isSelectedBanner && item.bannerText.notSelected}
+          {isSelectedBanner && item.bannerText.isNotSelected}
           {isSelectedBanner && (
-            <span className="link" onClick={() => setSelected(!selected)}>
+            <span className="link" onClick={() => setSelected(!isSelected)}>
               купи.
             </span>
           )}
-          {isNotSelectedBanner && item.bannerText.selected}
+          {isNotSelectedBanner && item.bannerText.isSelected}
           {!item.isInStock && item.bannerText.notInStock}
         </span>
       </div>
@@ -98,8 +102,8 @@ Banner.propTypes = {
     isInStock: PropTypes.bool.isRequired,
     isSelected: PropTypes.bool.isRequired,
     bannerText: PropTypes.shape({
-      notSelected: PropTypes.string.isRequired,
-      selected: PropTypes.string.isRequired,
+      isNotSelected: PropTypes.string.isRequired,
+      isSelected: PropTypes.string.isRequired,
       notInStock: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
