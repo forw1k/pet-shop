@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e50d9feb243233fc557da264786505b",
+    "revision": "3b72bee2b988ce1a4834287d709f0d36",
     "url": "./index.html"
   },
   {
-    "revision": "bb93680b649bb90af1db",
-    "url": "./static/css/main.5666cd2e.chunk.css"
+    "revision": "a6c8311cb5647dc59fb1",
+    "url": "./static/css/main.7e93f159.chunk.css"
   },
   {
     "revision": "a8530641287d20723428",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.a13e68d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb93680b649bb90af1db",
+    "revision": "a6c8311cb5647dc59fb1",
     "url": "./static/js/main.a0940060.chunk.js"
   },
   {
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd5befdcf1a1a7a53b5959544c00fee5",
     "url": "./static/media/Trebuchet-ms.bd5befdc.woff2"
+  },
+  {
+    "revision": "7b95a4ace0a3ae5f6cb8cdb329f4a48d",
+    "url": "./static/media/background.7b95a4ac.png"
   }
 ]);
