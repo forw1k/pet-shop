@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.7e93f159.chunk.css",
-    "main.js": "./static/js/main.a0940060.chunk.js",
-    "main.js.map": "./static/js/main.a0940060.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.e6c4d886.js",
-    "runtime-main.js.map": "./static/js/runtime-main.e6c4d886.js.map",
-    "static/js/2.a13e68d4.chunk.js": "./static/js/2.a13e68d4.chunk.js",
-    "static/js/2.a13e68d4.chunk.js.map": "./static/js/2.a13e68d4.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.298815dadf5229b2078ac2b81bd8e6b8.js": "./precache-manifest.298815dadf5229b2078ac2b81bd8e6b8.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.7e93f159.chunk.css.map": "./static/css/main.7e93f159.chunk.css.map",
-    "static/js/2.a13e68d4.chunk.js.LICENSE.txt": "./static/js/2.a13e68d4.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "./static/media/Trebuchet-ms.bd5befdc.woff2",
-    "static/media/styles.scss": "./static/media/background.7b95a4ac.png"
+    "main.css": "/pet-shop/static/css/main.7b9b92fe.chunk.css",
+    "main.js": "/pet-shop/static/js/main.a0940060.chunk.js",
+    "main.js.map": "/pet-shop/static/js/main.a0940060.chunk.js.map",
+    "runtime-main.js": "/pet-shop/static/js/runtime-main.1730e4fa.js",
+    "runtime-main.js.map": "/pet-shop/static/js/runtime-main.1730e4fa.js.map",
+    "static/js/2.a13e68d4.chunk.js": "/pet-shop/static/js/2.a13e68d4.chunk.js",
+    "static/js/2.a13e68d4.chunk.js.map": "/pet-shop/static/js/2.a13e68d4.chunk.js.map",
+    "index.html": "/pet-shop/index.html",
+    "precache-manifest.d86d5465d03f817716e5d4c099c67486.js": "/pet-shop/precache-manifest.d86d5465d03f817716e5d4c099c67486.js",
+    "service-worker.js": "/pet-shop/service-worker.js",
+    "static/css/main.7b9b92fe.chunk.css.map": "/pet-shop/static/css/main.7b9b92fe.chunk.css.map",
+    "static/js/2.a13e68d4.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.a13e68d4.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pet-shop/static/media/Trebuchet-ms.bd5befdc.woff2",
+    "static/media/styles.scss": "/pet-shop/static/media/background.7b95a4ac.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6c4d886.js",
+    "static/js/runtime-main.1730e4fa.js",
     "static/js/2.a13e68d4.chunk.js",
-    "static/css/main.7e93f159.chunk.css",
+    "static/css/main.7b9b92fe.chunk.css",
     "static/js/main.a0940060.chunk.js"
   ]
 }
