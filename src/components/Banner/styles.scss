@@ -86,9 +86,6 @@
   overflow: hidden;
   border-radius: 15px;
   margin-bottom: 15px;
-  // @media (max-width: 1024px) {
-  //   margin: 0 auto;
-  // }
   @media (max-width: 360px) {
     width: 300px;
     background: linear-gradient(135deg, transparent 32px, #ffffff 0);
@@ -97,7 +94,7 @@
 .information {
   display: flex;
   flex-direction: column;
-  padding: 15px 50px 0 50px;
+  padding: 15px 0 0 50px;
 }
 .headline {
   font-size: 48px;
